@@ -35,7 +35,7 @@ allprojects {
 And add below dependency code to your **module**'s `build.gradle` file.
 ```gradle
 dependencies {
-    implementation "com.github.skydoves:colorpickerview:2.1.6"
+    implementation "com.github.skydoves:colorpickerview:2.1.7"
 }
 ```
 
