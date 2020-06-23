@@ -604,6 +604,10 @@ public class ColorPickerView extends FrameLayout implements LifecycleObserver {
    *
    * @param drawable palette drawable.
    */
+  public void setPaletteDrawable(@NonNull Drawable drawable) {
+    setPaletteDrawable(drawable, ImageView.ScaleType.FIT_CENTER);
+  }
+
   public void setPaletteDrawable(@NonNull Drawable drawable, ImageView.ScaleType scaleType) {
     removeView(palette);
     palette = new ImageView(getContext());
