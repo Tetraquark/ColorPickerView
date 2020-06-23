@@ -292,7 +292,7 @@ public class ColorPickerView extends FrameLayout implements LifecycleObserver {
         && palette.getDrawable() instanceof BitmapDrawable
         && mappedPoints[0] >= 0
         && mappedPoints[1] >= 0
-        && mappedPoints[0] < palette.getDrawable().getIntrinsicWidth()
+        && mappedPoints[0] < palette.getMeasuredWidth()
         && mappedPoints[1] < palette.getDrawable().getIntrinsicHeight()) {
 
       invalidate();
